@@ -84,21 +84,30 @@ footer{
     clear:both;
 }
 /* Intro photo and intro card css */
-#welcomeimg{
+
+#welcomeImg{
   background-image: url("portfolioimages/bg-head-1.jpeg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 100vh;
+  margin-bottom: 0px;
+  position: relative;
+
 }
-#introTest{
-    margin:0px;
-    left:0px;
-    right:0px;
-    bottom:0px;
-    border:0px;
-    padding: 0px;
-    position: relative;
+
+#welcomeCard{
+    text-align: center;
+    background: #F9F9F9;
+    width: 350px;
+    height: 125px;
+    position: absolute;
+    color:  #67888d;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 12px;
 }
+
 #intro{
     margin:0px;
     left:0px;
@@ -112,18 +121,6 @@ footer{
     height:100%;
     width:100%;
     overflow: hidden;
-}
-#introCard{
-    text-align: center;
-    background: #F9F9F9;
-    width: 350px;
-    height: 125px;
-    position: absolute;
-    color:  #67888d;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 12px;
 }
 
 /* Intro photo and intro card css */
